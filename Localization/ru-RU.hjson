@@ -1,0 +1,31 @@
+Mods: {
+	WaHSpp: {
+		Config: {
+			Hooks: Крюки
+			Wings: Крылья
+			
+			GenericEnable: {
+				Label: Включить отображение статистики
+				Tooltip: Показывать статистику предмета
+			}
+			GenericColor: {
+				Label: Цвет заголовка
+				Tooltip: Какой цвет будет у заголовка статистики
+			}	
+		}
+		GenericTooltip: {
+			Wings: {
+				Header: "~ Характеристики ~"
+
+				FlightTime: "Время полёта: {0}"
+				HorizontalSpeed: "Горизонтальная скорость: {0}"
+				VerticalSpeedMul: "Модификатор вертикальной скорости: {0}"
+			}
+			Hooks: {
+				Header: "~ Характеристики ~"
+
+				GrapSpeed: "Скорость: {0}"
+			}
+		}
+	}
+}

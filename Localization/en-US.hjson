@@ -1,0 +1,31 @@
+Mods: {
+	WaHSpp: {
+		Config: {
+			Hooks: Hooks
+			Wings: Wings
+			
+			GenericEnable: {
+				Label: Enable statistics display
+				Tooltip: Enable statistics display
+			}
+			GenericColor: {
+				Label: Statistics header color
+				Tooltip: Header color selection
+			}
+		}
+		GenericTooltip: {
+			Wings: {
+				Header: "~ Wings Statistics ~"
+
+				FlightTime: "Flight Time: {0}"
+				HorizontalSpeed: "Horizontal Speed: {0}"
+				VerticalSpeedMul: "Vertical Speed Multiplier: {0}"
+			}
+			Hooks: {
+				Header: "~ Hooks Statistics ~"
+
+				GrapSpeed: "Grap Speed: {0}"
+			}
+		}
+	}
+}

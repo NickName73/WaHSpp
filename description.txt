@@ -1,0 +1,8 @@
+WingsAndHookStats++ by NickName73
+
+| This mod shows haracteristicks about wings and hooks
+| This mod support any mods wings and hooks
+
+Issues:
+| Support only modded hooks
+| Wings stats shows approximate values (exclude fly time)
